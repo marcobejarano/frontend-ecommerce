@@ -1,0 +1,51 @@
+A good frontend for an eCommerce site typically includes these essential pages:
+
+1. Homepage
+Highlights featured products, categories, promotions, or banners.
+
+Introduces your brand and provides easy navigation.
+
+2. Product Listing Page (Category Page)
+Shows products within a specific category.
+
+Includes filters (price, brand, rating, etc.) and sorting options.
+
+3. Product Detail Page
+Displays detailed info about a single product (images, description, price, variants, reviews).
+
+Includes an "Add to Cart" or "Buy Now" button.
+
+4. Search Results Page
+Displays products based on search queries with sorting/filtering options.
+
+5. Shopping Cart Page
+Lists items added to the cart with quantity, price, and remove/edit options.
+
+Includes a summary of total cost and a button to proceed to checkout.
+
+6. Checkout Page
+Collects shipping info, payment details, and order summary.
+
+May be split into steps: shipping > billing > review > confirm.
+
+7. User Account Pages
+Login/Register Page
+
+Profile Page (personal info, password change)
+
+Order History Page
+
+Wishlist Page
+
+Address Book
+
+8. Order Confirmation Page
+Displays a thank-you message and summary of the placed order.
+
+9. About Us / Contact Page
+Info about the company and ways to contact support.
+
+10. FAQ / Help Center
+Common questions, shipping/return policy, payment methods.
+
+11. Terms & Conditions / Privacy Policy

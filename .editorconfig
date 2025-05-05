@@ -1,0 +1,46 @@
+# EditorConfig is awesome: https://editorconfig.org
+
+# Top-most EditorConfig file. This file sets the root configuration.
+root = true
+
+# All files
+[*]
+# Set default charset to UTF-8
+charset = utf-8
+# Set line endings to LF (Unix style)
+end_of_line = lf
+# Indent with 2 spaces
+indent_style = space
+indent_size = 2
+# Use single quotes in JavaScript/TypeScript
+quote_type = single
+# Max line length of 100 characters
+max_line_length = 100
+
+# For TypeScript files
+[*.{ts,tsx}]
+# Enforce 2 spaces for indentation (this is standard in TypeScript/JavaScript)
+indent_style = space
+indent_size = 2
+# Ensure trailing commas are always present where possible
+trailing_comma = always
+# Enforce consistent quote style
+quote_type = single
+# Set the max line length to 100 characters
+max_line_length = 100
+
+# For JSON files
+[*.json]
+# Set indentation to 2 spaces for JSON files
+indent_style = space
+indent_size = 2
+# Max line length of 80 characters for JSON
+max_line_length = 80
+
+# For Markdown files
+[*.md]
+# Set indentation to 2 spaces for Markdown files
+indent_style = space
+indent_size = 2
+# Max line length of 80 characters for Markdown
+max_line_length = 80

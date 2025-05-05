@@ -1,0 +1,52 @@
+{
+  "name": "example-basic",
+  "type": "module",
+  "scripts": {
+    "dev": "vinxi dev",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "version": "vinxi version",
+    "biome:format": "biome format --reporter=summary --log-level=error",
+    "biome:format:write": "biome format --write",
+    "biome:lint": "biome lint --reporter=summary --log-level=error",
+    "biome:lint:write": "biome lint --write",
+    "biome:check": "biome check --reporter=summary --log-level=error",
+    "biome:check:write": "biome check --write"
+  },
+  "dependencies": {
+    "@kobalte/core": "^0.13.9",
+    "@libsql/client": "^0.15.4",
+    "@mercadopago/sdk-js": "^0.0.3",
+    "@modular-forms/solid": "^0.25.1",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.15.3",
+    "@solidjs/start": "^1.1.3",
+    "@tailwindcss/vite": "^4.1.4",
+    "argon2": "^0.41.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "drizzle-orm": "^0.42.0",
+    "lucide-solid": "^0.501.0",
+    "mercadopago": "^2.4.0",
+    "paseto-ts": "^2.0.5",
+    "shadcn-solid": "^0.7.7",
+    "solid-js": "^1.9.5",
+    "swiper": "^11.2.6",
+    "tailwind-merge": "^3.2.0",
+    "tailwindcss": "^4.1.4",
+    "tailwindcss-animate": "^1.0.7",
+    "tw-animate-css": "^1.2.5",
+    "valibot": "^1.0.0",
+    "vinxi": "^0.5.4"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.0.0-beta.1",
+    "drizzle-kit": "^0.31.0"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
+}
